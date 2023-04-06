@@ -1,0 +1,150 @@
+.sec-two-tiles {
+  border: 1.5px solid #545658;
+  padding: 25px 68px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 33.4%;
+
+  h1 {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+    color: #ffffff;
+    margin-bottom: 60px;
+  }
+
+  p {
+    /* basic text */
+
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 60px;
+
+    /* TEXT COLOR 2 */
+
+    color: #cdcfd1;
+  }
+
+  a {
+    margin-top: 20px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.sec-four-tiles {
+  background-color: #1f2123;
+  padding: 32px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 342px;
+
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    margin-top: 9px;
+    margin-bottom: 18px;
+    color: #ffffff;
+  }
+
+  p {
+    /* basic text */
+
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 60px;
+
+    /* TEXT COLOR 2 */
+
+    color: #cdcfd1;
+  }
+
+  a {
+    margin-top: 51px;
+  }
+}
+
+.abt-sec-4-items {
+  width: 25%;
+}
+.abt-number {
+  h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 113px;
+    color: #fdffff;
+    span {
+      color: #53b228;
+    }
+  }
+}
+
+.each-team-member {
+  margin-bottom: 20px;
+  .team-img {
+    width: 232px;
+    height: 282px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire screen */
+    border-radius: 10px;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 144%;
+    color: #53b228;
+    margin-top: 5px;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1f2123;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .each-team-member {
+    width: 100%;
+
+    .team-img {
+      width: 100%;
+    }
+  }
+}
+
+//MEDIA QUERY
+
+@media (max-width: 768px) {
+  .sec-two-tiles {
+    width: 100%;
+    padding: 28px 28px;
+  }
+}

@@ -1,0 +1,60 @@
+.footer-whole-cont {
+  margin-left: 3%;
+  width: 94%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foot-nav {
+  margin-top: 30px;
+}
+
+.subscribe-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 110px;
+}
+
+.form-sub {
+  button {
+    margin-left: 20px;
+  }
+
+  input {
+    background-color: rgba(66, 238, 66, 0.242);
+    border: 1.5px solid green;
+    padding: 13px 10px;
+    outline: none;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* TEXT COLOR 2 */
+
+    color: #ffffff;
+  }
+
+  input::placeholder {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* TEXT COLOR 2 */
+
+    color: #ffffff;
+  }
+
+  input:active {
+    outline: none;
+  }
+}
