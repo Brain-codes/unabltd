@@ -1,0 +1,34 @@
+.sec1-cu-cont {
+  background-image: url(../../images/mapbg.svg);
+  width: 100%;
+  right: 0px;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+  padding-bottom: 120px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  form {
+    margin-top: 80px;
+    width: 45%;
+
+    button {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}
+
+.fc1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .space {
+    width: 30px;
+  }
+}
