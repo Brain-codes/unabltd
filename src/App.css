@@ -88,6 +88,13 @@ a:hover {
   animation: loading 5s infinite;
 }
 
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
 @media screen and (max-width: 768px) {
   .cus-cur {
     display: none;
